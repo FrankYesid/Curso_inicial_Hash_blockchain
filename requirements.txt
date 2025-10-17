@@ -1,0 +1,53 @@
+# Requirements para Curso Inicial: Hash y Blockchain
+# Semana 1 - Fundamentos de Blockchain
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+# Entorno interactivo para ejecutar los notebooks
+notebook>=7.0.0
+jupyter>=1.0.0
+
+# ============================================
+# LIBRERÍAS ESTÁNDAR DE PYTHON
+# ============================================
+# Las siguientes librerías vienen incluidas con Python 3.10+
+# No requieren instalación adicional, pero se listan para referencia:
+#
+# - hashlib (funciones hash criptográficas: SHA-256, MD5, SHA1, etc.)
+# - json (serialización y deserialización de datos)
+# - datetime (manejo de fechas y timestamps)
+# - time (medición de tiempo de ejecución)
+#
+# Estas librerías se importan directamente sin necesidad de pip install
+
+# ============================================
+# DEPENDENCIAS OPCIONALES (SEMANAS FUTURAS)
+# ============================================
+# Las siguientes librerías NO son necesarias para la Semana 1,
+# pero se usarán en semanas posteriores del curso:
+
+# Flask para crear API REST (Semana 3)
+# flask>=3.0.0
+
+# Requests para comunicación entre nodos (Semana 4)
+# requests>=2.31.0
+
+# ============================================
+# NOTAS IMPORTANTES
+# ============================================
+# 
+# Para la Semana 1, solo necesitas:
+# 1. Python 3.10 o superior
+# 2. Jupyter Notebook (instalable con: pip install notebook)
+#
+# Todas las demás librerías usadas (hashlib, json, datetime)
+# son parte de la biblioteca estándar de Python.
+#
+# Instalación rápida:
+#   pip install -r requirements.txt
+#
+# O simplemente:
+#   pip install notebook
+#
+# ============================================
