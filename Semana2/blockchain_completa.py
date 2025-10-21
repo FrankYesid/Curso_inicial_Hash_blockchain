@@ -163,7 +163,7 @@ class Blockchain:
         """
         # Validar bloque génesis
         if self.chain[0].previous_hash != "0":
-            print("❌ Error: Bloque génesis inválido")
+            print("ERROR: Bloque genesis invalido")
             return False
         
         # Validar cada bloque
@@ -173,17 +173,17 @@ class Blockchain:
             
             # Verificar hash interno
             if not current_block.is_valid_hash():
-                print(f"❌ Error: Hash inválido en bloque #{i}")
+                print(f"ERROR: Hash invalido en bloque #{i}")
                 return False
             
             # Verificar enlace
             if current_block.previous_hash != previous_block.hash:
-                print(f"❌ Error: Enlace roto en bloque #{i}")
+                print(f"ERROR: Enlace roto en bloque #{i}")
                 return False
             
-            # Verificar índice
+            # Verificar indice
             if current_block.index != previous_block.index + 1:
-                print(f"❌ Error: Índice incorrecto en bloque #{i}")
+                print(f"ERROR: Indice incorrecto en bloque #{i}")
                 return False
         
         return True
@@ -219,7 +219,7 @@ class Blockchain:
             print(f"  {block}")
         print("=" * 70)
         print(f"Total de bloques: {len(self.chain)}")
-        print(f"Blockchain válida: {'✓ Sí' if self.is_chain_valid() else '✗ No'}")
+        print(f"Blockchain valida: {'SI' if self.is_chain_valid() else 'NO'}")
         print("=" * 70 + "\n")
     
     def to_json(self):
@@ -241,43 +241,43 @@ def demo_blockchain():
     print("#" * 70 + "\n")
     
     # Crear blockchain
-    print("📦 Creando blockchain...")
+    print(">> Creando blockchain...")
     mi_blockchain = Blockchain()
-    print(f"✓ Blockchain creada con {mi_blockchain.get_chain_length()} bloque (génesis)\n")
+    print(f"   Blockchain creada con {mi_blockchain.get_chain_length()} bloque (genesis)\n")
     
     # Agregar transacciones
-    print("📝 Agregando transacciones...")
-    mi_blockchain.add_block("Alice envía 50 BTC a Bob")
-    print("  ✓ Bloque #1 agregado")
+    print(">> Agregando transacciones...")
+    mi_blockchain.add_block("Alice envia 50 BTC a Bob")
+    print("   Bloque #1 agregado")
     
-    mi_blockchain.add_block("Bob envía 20 BTC a Charlie")
-    print("  ✓ Bloque #2 agregado")
+    mi_blockchain.add_block("Bob envia 20 BTC a Charlie")
+    print("   Bloque #2 agregado")
     
-    mi_blockchain.add_block("Charlie envía 10 BTC a Diana")
-    print("  ✓ Bloque #3 agregado")
+    mi_blockchain.add_block("Charlie envia 10 BTC a Diana")
+    print("   Bloque #3 agregado")
     
-    mi_blockchain.add_block("Diana envía 5 BTC a Alice")
-    print("  ✓ Bloque #4 agregado\n")
+    mi_blockchain.add_block("Diana envia 5 BTC a Alice")
+    print("   Bloque #4 agregado\n")
     
     # Mostrar blockchain
     mi_blockchain.display_chain()
     
     # Demostrar inmutabilidad
-    print("🔒 DEMOSTRACIÓN DE INMUTABILIDAD")
+    print(">> DEMOSTRACION DE INMUTABILIDAD")
     print("=" * 70)
     print("Intentando corromper el bloque #2...")
     print(f"Dato original: {mi_blockchain.chain[2].data}")
     
     # Modificar datos
-    mi_blockchain.chain[2].data = "Bob envía 100 BTC a Charlie (MODIFICADO ILEGALMENTE)"
+    mi_blockchain.chain[2].data = "Bob envia 100 BTC a Charlie (MODIFICADO ILEGALMENTE)"
     print(f"Dato modificado: {mi_blockchain.chain[2].data}")
     
     # Validar
-    print(f"\n¿Blockchain válida después de la modificación? ", end="")
+    print(f"\nBlockchain valida despues de la modificacion? ", end="")
     if mi_blockchain.is_chain_valid():
-        print("✓ Sí (esto no debería pasar)")
+        print("SI (esto no deberia pasar)")
     else:
-        print("✗ No (¡Manipulación detectada!)")
+        print("NO (Manipulacion detectada!)")
     
     # Encontrar bloques corruptos
     corrupted = mi_blockchain.find_tampering()
@@ -287,46 +287,46 @@ def demo_blockchain():
     print("=" * 70 + "\n")
     
     # Crear blockchain limpia para exportar
-    print("💾 EXPORTACIÓN A JSON")
+    print(">> EXPORTACION A JSON")
     print("=" * 70)
     blockchain_limpia = Blockchain()
-    blockchain_limpia.add_block("Transacción 1")
-    blockchain_limpia.add_block("Transacción 2")
-    blockchain_limpia.add_block("Transacción 3")
+    blockchain_limpia.add_block("Transaccion 1")
+    blockchain_limpia.add_block("Transaccion 2")
+    blockchain_limpia.add_block("Transaccion 3")
     
     json_output = blockchain_limpia.to_json()
     print("Blockchain exportada a JSON:")
     print(json_output[:500] + "..." if len(json_output) > 500 else json_output)
     print("=" * 70 + "\n")
     
-    # Conclusión
+    # Conclusion
     print("#" * 70)
-    print("¡DEMOSTRACIÓN COMPLETADA!".center(70))
+    print("DEMOSTRACION COMPLETADA".center(70))
     print("#" * 70)
-    print("\n✨ Has visto una blockchain funcional en acción.")
-    print("📚 Conceptos demostrados:")
-    print("   • Creación de bloques")
-    print("   • Enlace criptográfico")
-    print("   • Validación de integridad")
-    print("   • Detección de manipulaciones")
-    print("   • Inmutabilidad\n")
+    print("\n>> Has visto una blockchain funcional en accion.")
+    print(">> Conceptos demostrados:")
+    print("   - Creacion de bloques")
+    print("   - Enlace criptografico")
+    print("   - Validacion de integridad")
+    print("   - Deteccion de manipulaciones")
+    print("   - Inmutabilidad\n")
 
 
 if __name__ == "__main__":
-    # Ejecutar demostración
+    # Ejecutar demostracion
     demo_blockchain()
     
-    # Opción interactiva
+    # Opcion interactiva
     print("\n" + "=" * 70)
     print("MODO INTERACTIVO")
     print("=" * 70)
-    print("\n¿Quieres crear tu propia blockchain? (s/n): ", end="")
+    print("\nQuieres crear tu propia blockchain? (s/n): ", end="")
     
     try:
         respuesta = input().lower()
         
         if respuesta == 's':
-            print("\n🚀 Creando tu blockchain personalizada...\n")
+            print("\n>> Creando tu blockchain personalizada...\n")
             mi_bc = Blockchain()
             
             while True:
@@ -335,7 +335,7 @@ if __name__ == "__main__":
                 print("2. Ver blockchain")
                 print("3. Validar blockchain")
                 print("4. Salir")
-                print("\nElige una opción (1-4): ", end="")
+                print("\nElige una opcion (1-4): ", end="")
                 
                 opcion = input()
                 
@@ -343,28 +343,28 @@ if __name__ == "__main__":
                     print("Ingresa los datos del bloque: ", end="")
                     datos = input()
                     mi_bc.add_block(datos)
-                    print(f"✓ Bloque #{mi_bc.get_chain_length() - 1} agregado")
+                    print(f"   Bloque #{mi_bc.get_chain_length() - 1} agregado")
                 
                 elif opcion == "2":
                     mi_bc.display_chain()
                 
                 elif opcion == "3":
                     if mi_bc.is_chain_valid():
-                        print("✓ Blockchain válida")
+                        print("   Blockchain valida")
                     else:
-                        print("✗ Blockchain corrupta")
+                        print("   Blockchain corrupta")
                 
                 elif opcion == "4":
-                    print("\n¡Hasta luego! 👋\n")
+                    print("\nHasta luego!\n")
                     break
                 
                 else:
-                    print("Opción inválida")
+                    print("Opcion invalida")
         
         else:
-            print("\n¡Hasta luego! 👋\n")
+            print("\nHasta luego!\n")
     
     except KeyboardInterrupt:
-        print("\n\n¡Hasta luego! 👋\n")
+        print("\n\nHasta luego!\n")
     except EOFError:
-        print("\n\n¡Hasta luego! 👋\n")
+        print("\n\nHasta luego!\n")
