@@ -8,22 +8,50 @@ Material educativo completo para aprender a construir una blockchain funcional e
 
 ## 📁 Contenido de la Carpeta
 
-### 📓 Archivos Principales
+### 📓 Notebooks por Día (Recomendado)
 
-1. **`Semana2_Blockchain_Construccion.ipynb`**
-   - Notebook Jupyter interactivo con todo el contenido
-   - 46 celdas organizadas en 5 días de aprendizaje
-   - Incluye teoría, código ejecutable, ejercicios y autoevaluaciones
-   - **Este es el archivo principal para estudiantes**
+Cada día tiene su propio notebook independiente de 20 minutos:
 
-2. **`Instructor_Semana2_Blockchain.md`**
-   - Guía completa para el instructor
-   - Objetivos específicos por día
-   - Orientaciones pedagógicas
-   - Rúbrica de evaluación
-   - Recursos audiovisuales sugeridos
-   - Vinculación con Semana 3
-   - **Este es el archivo principal para instructores**
+1. **`Dia1_Clase_Block.ipynb`** (12 celdas)
+   - Crear la clase Block
+   - Atributos esenciales
+   - Programación orientada a objetos
+
+2. **`Dia2_Hash_Criptografico.ipynb`** (13 celdas)
+   - Funciones hash SHA-256
+   - Propiedades criptográficas
+   - Verificación de integridad
+
+3. **`Dia3_Clase_Blockchain.ipynb`** (9 celdas)
+   - Clase Blockchain
+   - Gestión de la cadena
+   - Bloque génesis automático
+
+4. **`Dia4_Agregar_Bloques.ipynb`** (9 celdas)
+   - Agregar bloques
+   - Enlace criptográfico
+   - Visualización de la cadena
+
+5. **`Dia5_Validacion.ipynb`** (9 celdas)
+   - Validación de integridad
+   - Detección de manipulaciones
+   - Inmutabilidad
+
+### 📚 Notebook Completo (Alternativa)
+
+**`Semana2_Blockchain_Construccion.ipynb`** (46 celdas)
+- Contiene todos los 5 días en un solo archivo
+- Útil para revisión completa o referencia
+
+### 📖 Guías y Documentación
+
+**`Instructor_Semana2_Blockchain.md`**
+- Guía completa para el instructor
+- Objetivos específicos por día
+- Orientaciones pedagógicas
+- Rúbrica de evaluación
+- Recursos audiovisuales sugeridos
+- Vinculación con Semana 3
 
 ---
 
@@ -82,20 +110,33 @@ Al completar esta semana, los estudiantes serán capaces de:
    pip install jupyter
    ```
 
-2. **Abrir el notebook:**
+2. **Opción A: Notebooks por Día (Recomendado)**
+   ```bash
+   cd Semana2
+   
+   # Día 1
+   jupyter notebook Dia1_Clase_Block.ipynb
+   
+   # Día 2
+   jupyter notebook Dia2_Hash_Criptografico.ipynb
+   
+   # ... y así sucesivamente
+   ```
+
+3. **Opción B: Notebook Completo**
    ```bash
    cd Semana2
    jupyter notebook Semana2_Blockchain_Construccion.ipynb
    ```
 
-3. **Seguir el orden:**
+4. **Seguir el orden:**
    - Leer la teoría de cada día
    - Ejecutar el código de ejemplo
    - Completar el ejercicio práctico
    - Verificar con la solución
    - Realizar la autoevaluación
 
-4. **Dedicar 20 minutos diarios** durante 5 días
+5. **Dedicar 20 minutos diarios** durante 5 días
 
 ### Para Instructores
 
