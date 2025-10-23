@@ -10,66 +10,66 @@
 
 ---
 
-## 📁 Estructura de Archivos Generados
+## 📁 Estructura de Archivos
 
 ```
 Curso_inicial_Hash_blockchain/
 │
-├── 📄 README.md                                    ✅ Generado
+├── 📄 README.md
 │   └── Documentación principal del proyecto (13.4 KB)
 │
-├── 📄 requirements.txt                             ✅ Generado
+├── 📄 requirements.txt
 │   └── Dependencias del proyecto (1.7 KB)
 │
-├── 📄 RESUMEN_PROYECTO.md                          ✅ Generado
+├── 📄 RESUMEN_PROYECTO.md
 │   └── Este archivo
 │
-└── 📂 Semana1/                                     ✅ Generado
+└── 📂 Semana1/
     │
-    ├── 📓 Dia1_Que_es_Blockchain.ipynb            ✅ Generado (10.9 KB)
+    ├── 📓 Dia1_Que_es_Blockchain.ipynb            (10.9 KB)
     │   ├── Contenido teórico: Definición de blockchain
     │   ├── Código: Crear bloque simple con diccionarios
     │   ├── Ejercicio: Crear bloque personalizado
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia2_Estructura_Bloque.ipynb            ✅ Generado (14.7 KB)
+    ├── 📓 Dia2_Estructura_Bloque.ipynb            (14.7 KB)
     │   ├── Contenido teórico: Anatomía del bloque
     │   ├── Código: Función crear_bloque() con datetime
     │   ├── Ejercicio: Agregar campo nonce
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia3_Hash_SHA256.ipynb                  ✅ Generado (15.4 KB)
+    ├── 📓 Dia3_Hash_SHA256.ipynb                  (15.4 KB)
     │   ├── Contenido teórico: Propiedades de hash
     │   ├── Código: Calcular hash con hashlib
     │   ├── Ejercicio: Demostrar efecto avalancha
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia4_Encadenar_Bloques.ipynb            ✅ Generado (17.8 KB)
+    ├── 📓 Dia4_Encadenar_Bloques.ipynb            (17.8 KB)
     │   ├── Contenido teórico: Encadenamiento criptográfico
     │   ├── Código: Crear cadena de bloques
     │   ├── Ejercicio: Detectar alteraciones
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia5_Revision_Resumen.ipynb             ✅ Generado (21.6 KB)
+    ├── 📓 Dia5_Revision_Resumen.ipynb             (21.6 KB)
     │   ├── Contenido teórico: Consolidación de conceptos
     │   ├── Código: Clase Blockchain completa
     │   ├── Ejercicio: Validación de cadena
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia6_Recursos_Audiovisuales.ipynb       ✅ Generado (14.7 KB)
+    ├── 📓 Dia6_Recursos_Audiovisuales.ipynb       (14.7 KB)
     │   ├── Videos recomendados
     │   ├── Artículos y lecturas
     │   ├── Herramientas interactivas
     │   └── Experimentos adicionales
     │
-    ├── 📖 Instructor_Semana1_Blockchain.md        ✅ Generado (21.8 KB)
+    ├── 📖 Instructor_Semana1_Blockchain.md        (21.8 KB)
     │   ├── Objetivos de aprendizaje
     │   ├── Planificación diaria detallada
     │   ├── Metodología de enseñanza
     │   ├── Rúbricas de evaluación
     │   └── Recursos para el instructor
     │
-    └── 📖 GUIA_RAPIDA_ESTUDIANTE.md               ✅ Generado (9.2 KB)
+    └── 📖 GUIA_RAPIDA_ESTUDIANTE.md               (9.2 KB)
         ├── Plan de estudio recomendado
         ├── Consejos de aprendizaje
         ├── Solución de problemas
@@ -80,7 +80,7 @@ Curso_inicial_Hash_blockchain/
 
 ## 📊 Estadísticas del Proyecto
 
-### Archivos Generados
+### Archivos
 
 | Tipo | Cantidad | Tamaño Total |
 |------|----------|--------------|

@@ -281,8 +281,8 @@ Proyecto educativo de código abierto para la enseñanza de blockchain
 
 - 💬 **Discusiones:** Usa la sección de [Discussions](https://github.com/tu-usuario/Curso_inicial_Hash_blockchain/discussions)
 - 🐛 **Issues:** Reporta errores en [Issues](https://github.com/tu-usuario/Curso_inicial_Hash_blockchain/issues)
-- 📧 **Email:** [tu-email@ejemplo.com]
-- 🌐 **Web:** [tu-sitio-web.com]
+<!-- - 📧 **Email:** [tu-email@ejemplo.com]
+- 🌐 **Web:** [tu-sitio-web.com] -->
 
 ### Recursos Adicionales
 
@@ -291,7 +291,7 @@ Proyecto educativo de código abierto para la enseñanza de blockchain
 - 💬 [Comunidad en Discord](#) (próximamente)
 
 ---
-
+<!-- 
 ## 🌟 Testimonios
 
 > *"El mejor curso introductorio de blockchain que he encontrado. Práctico, claro y bien estructurado."*  
@@ -303,7 +303,7 @@ Proyecto educativo de código abierto para la enseñanza de blockchain
 > *"Finalmente entendí cómo funciona blockchain. El enfoque hands-on hace toda la diferencia."*  
 > — Desarrollador autodidacta
 
-*(Agrega testimonios reales conforme recibas feedback)*
+*(Agrega testimonios reales conforme recibas feedback)* -->
 
 ---
 
