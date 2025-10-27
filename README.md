@@ -394,7 +394,7 @@ Si este material te resultó útil, considera:
 
 ---
 
-<!-- **Hecho con ❤️ para la comunidad educativa** -->
+<!-- **Hecho con ❤️ para la comunidad edu cativa** -->
 
 *Última actualización: Octubre 2025*
 
