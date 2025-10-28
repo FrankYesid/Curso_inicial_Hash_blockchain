@@ -2,17 +2,22 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![Nivel](https://img.shields.io/badge/Nivel-Introductorio-green)
+![Nivel](https://img.shields.io/badge/Nivel-Introductorio--Intermedio-green)
 ![Licencia](https://img.shields.io/badge/Licencia-Educativa-yellow)
 
 ---
 
 ## 📚 Descripción del Proyecto
 
-Curso educativo completo y autoguiado para aprender los **fundamentos de Blockchain** desde cero, utilizando Python y Jupyter Notebooks. Diseñado para sesiones diarias de **20 minutos**, ideal para estudiantes de pregrado, bootcamps o autodidactas.
+Curso educativo completo y autoguiado para aprender los **fundamentos de Blockchain y Smart Contracts** desde cero, utilizando Python y Jupyter Notebooks. Diseñado para sesiones diarias de **20 minutos**, ideal para estudiantes de pregrado, bootcamps o autodidactas.
 
-Este repositorio contiene todo el material pedagógico necesario para la **Semana 1: Fundamentos de Blockchain**, incluyendo:
-- 📓 6 notebooks Jupyter interactivos (5 obligatorios + 1 opcional)
+Este repositorio contiene todo el material pedagógico necesario para un curso completo de 3 semanas:
+- **Semana 1:** Fundamentos de Blockchain
+- **Semana 2:** Construcción de una Blockchain en Python
+- **Semana 3:** Smart Contracts con Python (Web3.py)
+
+Cada semana incluye:
+- 📓 Notebooks Jupyter interactivos
 - 📖 Guía completa para instructores
 - 💻 Código ejecutable y reproducible
 - ✅ Ejercicios prácticos con soluciones comentadas
@@ -22,14 +27,24 @@ Este repositorio contiene todo el material pedagógico necesario para la **Seman
 
 ## 🎯 Objetivos de Aprendizaje
 
-Al completar la **Semana 1**, serás capaz de:
-
+### Semana 1: Fundamentos de Blockchain
 ✅ Explicar qué es blockchain y cómo funciona  
 ✅ Identificar los componentes de un bloque  
 ✅ Calcular hashes SHA-256 usando Python  
 ✅ Implementar encadenamiento de bloques  
-✅ Crear una blockchain funcional desde cero  
+
+### Semana 2: Construcción de una Blockchain
+✅ Crear una clase Block con todos sus componentes  
+✅ Implementar funciones hash criptográficas  
+✅ Desarrollar una clase Blockchain completa  
 ✅ Validar la integridad de una cadena de bloques  
+
+### Semana 3: Smart Contracts con Python
+✅ Comprender qué son los Smart Contracts y sus casos de uso  
+✅ Configurar un entorno de desarrollo con Web3.py  
+✅ Crear, compilar y desplegar contratos en Solidity  
+✅ Interactuar con contratos desde Python  
+✅ Implementar un proyecto práctico (NotesApp)  
 
 ---
 
@@ -39,16 +54,43 @@ Al completar la **Semana 1**, serás capaz de:
 Curso_inicial_Hash_blockchain/
 │
 ├── README.md                          # Este archivo
-├── requirements.txt                   # Dependencias (ninguna adicional para Semana 1)
+├── requirements.txt                   # Dependencias del proyecto
+├── RESUMEN_PROYECTO.md                # Resumen completo del proyecto
+├── EJEMPLO_FRAGMENTOS.md              # Ejemplos de formato y contenido
 │
-└── Semana1/                           # Material de la Semana 1
-    ├── Dia1_Que_es_Blockchain.ipynb          # Introducción a blockchain
-    ├── Dia2_Estructura_Bloque.ipynb          # Anatomía de un bloque
-    ├── Dia3_Hash_SHA256.ipynb                # Funciones hash criptográficas
-    ├── Dia4_Encadenar_Bloques.ipynb          # Encadenamiento y validación
-    ├── Dia5_Revision_Resumen.ipynb           # Consolidación e integración
-    ├── Dia6_Recursos_Audiovisuales.ipynb     # Recursos complementarios (opcional)
-    └── Instructor_Semana1_Blockchain.md      # Guía del instructor
+├── Semana1/                           # Material de la Semana 1
+│   ├── Dia1_Que_es_Blockchain.ipynb          # Introducción a blockchain
+│   ├── Dia2_Estructura_Bloque.ipynb          # Anatomía de un bloque
+│   ├── Dia3_Hash_SHA256.ipynb                # Funciones hash criptográficas
+│   ├── Dia4_Encadenar_Bloques.ipynb          # Encadenamiento y validación
+│   ├── Dia5_Revision_Resumen.ipynb           # Consolidación e integración
+│   ├── Dia6_Recursos_Audiovisuales.ipynb     # Recursos complementarios
+│   ├── GUIA_RAPIDA_ESTUDIANTE.md             # Guía para estudiantes
+│   └── Instructor_Semana1_Blockchain.md      # Guía del instructor
+│
+├── Semana2/                           # Material de la Semana 2
+│   ├── Dia1_Clase_Block.ipynb                # Creación de la clase Block
+│   ├── Dia2_Hash_Criptografico.ipynb         # Implementación de hash
+│   ├── Dia3_Clase_Blockchain.ipynb           # Creación de la clase Blockchain
+│   ├── Dia4_Agregar_Bloques.ipynb            # Añadir bloques a la cadena
+│   ├── Dia5_Validacion.ipynb                 # Validación de integridad
+│   ├── README.md                             # Descripción de la semana
+│   ├── RESUMEN_SEMANA2.md                    # Resumen detallado
+│   ├── Instructor_Semana2_Blockchain.md      # Guía del instructor
+│   ├── Semana2_Blockchain_Construccion.ipynb # Notebook integrador
+│   └── blockchain_completa.py                # Implementación completa
+│
+└── Semana3/                           # Material de la Semana 3
+    ├── Dia1_Que_es_Smart_Contract.ipynb      # Introducción a Smart Contracts
+    ├── Dia2_Configuracion_Python.ipynb       # Configuración de Web3.py
+    ├── Dia3_Creando_Contrato_Solidity.ipynb  # Creación de contratos
+    ├── Dia4_Desplegando_Contrato.ipynb       # Despliegue de contratos
+    ├── Dia5_Interactuando_Contrato.ipynb     # Interacción con contratos
+    ├── Dia6_Eventos_Monitoreo.ipynb          # Eventos y monitoreo
+    ├── Dia7_Proyecto_NotesApp.ipynb          # Proyecto integrador
+    ├── README.md                             # Descripción de la semana
+    ├── RESUMEN_SEMANA3.md                    # Resumen detallado
+    └── Instructor_Semana3_Blockchain.md      # Guía del instructor
 ```
 
 ---

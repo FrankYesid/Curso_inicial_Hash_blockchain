@@ -1,11 +1,11 @@
-# 📊 Resumen del Proyecto - Curso Blockchain Semana 1
+# 📊 Resumen del Proyecto - Curso Blockchain Completo
 
 ---
 
 ## ✅ Estado del Proyecto: COMPLETADO
 
-**Fecha de generación:** Octubre 16, 2025  
-**Versión:** 1.0  
+**Fecha de inicio:** Octubre 16, 2025  
+**Versión:** 3.0  
 **Estado:** Listo para uso educativo
 
 ---
