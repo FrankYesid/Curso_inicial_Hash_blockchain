@@ -403,47 +403,31 @@ Curso_inicial_Hash_blockchain/
    - Comienza con `Dia1_Que_es_Blockchain.ipynb`
    - Dedica 20 minutos diarios
 
-### Para Instructores
-
-1. **Revisa la guía docente**
-   - Lee `Semana1/Instructor_Semana1_Blockchain.md`
-   - Familiarízate con los objetivos y metodología
-
-2. **Ejecuta todos los notebooks**
-   - Verifica que funcionan en tu entorno
-   - Adapta según necesidades de tu grupo
-
-3. **Configura comunicación**
-   - Establece canal de soporte (foro, email, etc.)
-   - Define horarios de consulta
-
-4. **Lanza el curso**
-   - Comparte material con estudiantes
-   - Monitorea progreso
-   - Recopila feedback
-
 ---
 
 ## 🔄 Próximos Pasos (Roadmap)
 
 ### Completado ✅
 - [x] Semana 1: Fundamentos de Blockchain
-- [x] 6 notebooks interactivos
-- [x] Guía del instructor
+- [x] Semana 2: Construcción de una Blockchain
+- [x] Semana 3: Smart Contracts con Python y Web3.py
+- [x] 19 notebooks interactivos en total
+- [x] Guías del instructor para las tres semanas
 - [x] Guía del estudiante
+- [x] Proyecto NotesApp con Smart Contracts
 - [x] Documentación completa
 
 ### En Desarrollo 🚧
-- [ ] Semana 2: Proof of Work y Minería
-- [ ] Semana 3: API REST para Blockchain
+- [ ] Semana 4: Aplicaciones Descentralizadas (DApps)
 - [ ] Videos explicativos propios
 - [ ] Traducciones a otros idiomas
+- [ ] Comunidad de práctica en Discord
 
 ### Planeado 📅
-- [ ] Semanas 4-6: Contenido avanzado
-- [ ] Proyecto final integrador
-- [ ] Certificado de completación
-- [ ] Comunidad de aprendizaje
+- [ ] Semanas 5-6: Blockchain en la Nube y Casos de Uso Empresariales
+- [ ] Proyecto final integrador multi-plataforma
+- [ ] Certificado de completación verificable en blockchain
+- [ ] Hackathon para estudiantes avanzados
 
 ---
 
@@ -452,7 +436,6 @@ Curso_inicial_Hash_blockchain/
 **Proyecto:** Curso Inicial Hash y Blockchain  
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Licencia:** Uso educativo libre
 
 ---
 
@@ -467,6 +450,6 @@ Este proyecto está **100% listo** para ser utilizado en entornos educativos.
 
 ---
 
-**¡Gracias por usar este material educativo! 🚀**
+<!-- **¡Gracias por usar este material educativo! 🚀** -->
 
 *Si tienes feedback o sugerencias, por favor compártelas para mejorar futuras versiones.*
