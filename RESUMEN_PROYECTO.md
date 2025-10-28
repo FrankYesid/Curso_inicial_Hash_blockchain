@@ -16,38 +16,162 @@
 Curso_inicial_Hash_blockchain/
 │
 ├── 📄 README.md
-│   └── Documentación principal del proyecto (13.4 KB)
+│   └── Documentación principal del proyecto (15.8 KB)
 │
 ├── 📄 requirements.txt
-│   └── Dependencias del proyecto (1.7 KB)
+│   └── Dependencias del proyecto (2.5 KB)
 │
 ├── 📄 RESUMEN_PROYECTO.md
 │   └── Este archivo
 │
-└── 📂 Semana1/
+├── 📄 EJEMPLO_FRAGMENTOS.md
+│   └── Ejemplos de formato y contenido (12.3 KB)
+│
+├── 📂 Semana1/
+│   │
+│   ├── 📓 Dia1_Que_es_Blockchain.ipynb            (10.9 KB)
+│   │   ├── Contenido teórico: Definición de blockchain
+│   │   ├── Código: Crear bloque simple con diccionarios
+│   │   ├── Ejercicio: Crear bloque personalizado
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia2_Estructura_Bloque.ipynb            (14.7 KB)
+│   │   ├── Contenido teórico: Anatomía del bloque
+│   │   ├── Código: Función crear_bloque() con datetime
+│   │   ├── Ejercicio: Agregar campo nonce
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia3_Hash_SHA256.ipynb                  (15.4 KB)
+│   │   ├── Contenido teórico: Propiedades de hash
+│   │   ├── Código: Calcular hash con hashlib
+│   │   ├── Ejercicio: Demostrar efecto avalancha
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia4_Encadenar_Bloques.ipynb            (17.8 KB)
+│   │   ├── Contenido teórico: Encadenamiento criptográfico
+│   │   ├── Código: Crear cadena de bloques
+│   │   ├── Ejercicio: Detectar alteraciones
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia5_Revision_Resumen.ipynb             (16.2 KB)
+│   │   ├── Contenido teórico: Integración de conceptos
+│   │   ├── Código: Implementación completa
+│   │   ├── Ejercicio: Modificar la blockchain
+│   │   └── Autoevaluación: 5 preguntas
+│   │
+│   ├── 📓 Dia6_Recursos_Audiovisuales.ipynb       (8.5 KB)
+│   │   ├── Videos recomendados con enlaces
+│   │   ├── Recursos interactivos
+│   │   └── Lecturas complementarias
+│   │
+│   ├── 📄 GUIA_RAPIDA_ESTUDIANTE.md               (7.2 KB)
+│   │   └── Instrucciones para estudiantes
+│   │
+│   └── 📄 Instructor_Semana1_Blockchain.md        (18.6 KB)
+│       └── Guía detallada para instructores
+│
+├── 📂 Semana2/
+│   │
+│   ├── 📓 Dia1_Clase_Block.ipynb                  (12.8 KB)
+│   │   ├── Contenido teórico: POO en blockchain
+│   │   ├── Código: Implementación de clase Block
+│   │   ├── Ejercicio: Extender la clase Block
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia2_Hash_Criptografico.ipynb           (13.5 KB)
+│   │   ├── Contenido teórico: Hash criptográfico
+│   │   ├── Código: Método calculate_hash()
+│   │   ├── Ejercicio: Implementar verificación
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia3_Clase_Blockchain.ipynb             (14.2 KB)
+│   │   ├── Contenido teórico: Diseño de la clase
+│   │   ├── Código: Implementación de Blockchain
+│   │   ├── Ejercicio: Métodos adicionales
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia4_Agregar_Bloques.ipynb              (13.7 KB)
+│   │   ├── Contenido teórico: Proceso de adición
+│   │   ├── Código: Método add_block()
+│   │   ├── Ejercicio: Visualización de la cadena
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Dia5_Validacion.ipynb                   (15.1 KB)
+│   │   ├── Contenido teórico: Integridad de datos
+│   │   ├── Código: Método is_valid()
+│   │   ├── Ejercicio: Pruebas de manipulación
+│   │   └── Autoevaluación: 3 preguntas
+│   │
+│   ├── 📓 Semana2_Blockchain_Construccion.ipynb   (22.4 KB)
+│   │   ├── Integración de todos los conceptos
+│   │   ├── Implementación completa paso a paso
+│   │   └── Ejercicios avanzados
+│   │
+│   ├── 📄 README.md                               (5.8 KB)
+│   │   └── Descripción de la semana
+│   │
+│   ├── 📄 RESUMEN_SEMANA2.md                      (14.3 KB)
+│   │   └── Resumen detallado de la semana
+│   │
+│   ├── 📄 Instructor_Semana2_Blockchain.md        (19.2 KB)
+│   │   └── Guía detallada para instructores
+│   │
+│   └── 📄 blockchain_completa.py                  (8.7 KB)
+│       └── Implementación completa en un archivo
+│
+└── 📂 Semana3/
     │
-    ├── 📓 Dia1_Que_es_Blockchain.ipynb            (10.9 KB)
-    │   ├── Contenido teórico: Definición de blockchain
-    │   ├── Código: Crear bloque simple con diccionarios
-    │   ├── Ejercicio: Crear bloque personalizado
+    ├── 📓 Dia1_Que_es_Smart_Contract.ipynb        (13.6 KB)
+    │   ├── Contenido teórico: Smart Contracts
+    │   ├── Código: Ejemplos conceptuales
+    │   ├── Ejercicio: Análisis de casos de uso
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia2_Estructura_Bloque.ipynb            (14.7 KB)
-    │   ├── Contenido teórico: Anatomía del bloque
-    │   ├── Código: Función crear_bloque() con datetime
-    │   ├── Ejercicio: Agregar campo nonce
+    ├── 📓 Dia2_Configuracion_Python.ipynb         (12.9 KB)
+    │   ├── Contenido teórico: Web3.py y Ganache
+    │   ├── Código: Configuración del entorno
+    │   ├── Ejercicio: Conexión y consultas básicas
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia3_Hash_SHA256.ipynb                  (15.4 KB)
-    │   ├── Contenido teórico: Propiedades de hash
-    │   ├── Código: Calcular hash con hashlib
-    │   ├── Ejercicio: Demostrar efecto avalancha
+    ├── 📓 Dia3_Creando_Contrato_Solidity.ipynb    (14.8 KB)
+    │   ├── Contenido teórico: Sintaxis de Solidity
+    │   ├── Código: Contrato SimpleStorage
+    │   ├── Ejercicio: Compilación con Python
     │   └── Autoevaluación: 3 preguntas
     │
-    ├── 📓 Dia4_Encadenar_Bloques.ipynb            (17.8 KB)
-    │   ├── Contenido teórico: Encadenamiento criptográfico
-    │   ├── Código: Crear cadena de bloques
-    │   ├── Ejercicio: Detectar alteraciones
+    ├── 📓 Dia4_Desplegando_Contrato.ipynb         (13.5 KB)
+    │   ├── Contenido teórico: Proceso de despliegue
+    │   ├── Código: Despliegue con Web3.py
+    │   ├── Ejercicio: Verificación del despliegue
+    │   └── Autoevaluación: 3 preguntas
+    │
+    ├── 📓 Dia5_Interactuando_Contrato.ipynb       (15.2 KB)
+    │   ├── Contenido teórico: Llamadas vs Transacciones
+    │   ├── Código: Métodos .call() y .transact()
+    │   ├── Ejercicio: Interacción completa
+    │   └── Autoevaluación: 3 preguntas
+    │
+    ├── 📓 Dia6_Eventos_Monitoreo.ipynb            (14.7 KB)
+    │   ├── Contenido teórico: Eventos en Solidity
+    │   ├── Código: Implementación y captura
+    │   ├── Ejercicio: Filtrado de eventos
+    │   └── Autoevaluación: 3 preguntas
+    │
+    ├── 📓 Dia7_Proyecto_NotesApp.ipynb            (18.3 KB)
+    │   ├── Contenido teórico: Diseño de aplicación
+    │   ├── Código: Implementación completa
+    │   ├── Ejercicio: Extensión de funcionalidades
+    │   └── Autoevaluación: 5 preguntas
+    │
+    ├── 📄 README.md                               (6.2 KB)
+    │   └── Descripción de la semana
+    │
+    ├── 📄 RESUMEN_SEMANA3.md                      (15.1 KB)
+    │   └── Resumen detallado de la semana
+    │
+    └── 📄 Instructor_Semana3_Blockchain.md        (20.4 KB)
+        └── Guía detallada para instructores
+```
     │   └── Autoevaluación: 3 preguntas
     │
     ├── 📓 Dia5_Revision_Resumen.ipynb             (21.6 KB)
